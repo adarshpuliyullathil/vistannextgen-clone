@@ -1,0 +1,288 @@
+.first-section{
+    background-image: url(../../../assets/images/home/bg.jpg);
+    color: #fff;
+    padding-bottom: 15em;
+    background-size: cover;
+    background-position: center;
+}
+.banner-image{
+    padding-top: 170px;
+}
+.banner-image.startup-india{
+    
+}
+.banner-para{   
+    width: 49%;
+    margin: auto;
+    margin-top: 190px;
+    margin-bottom: 100px;
+    border-left: #ffaa17 solid ;
+}
+.banner-para p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff !important;
+    font-family: 'Roboto',sans-serif;
+}
+.carousel-banner{
+    padding: 3% 0;
+}
+.banner-title{
+    width: 75%;
+    margin: auto;
+}
+.banner-title h3{
+    text-transform: uppercase;
+    color: cyan !important;
+    font-size: 30px;
+    line-height: 1.09;
+    font-weight: 700 ;
+    font-family: 'Oswald',sans-serif;
+    letter-spacing: 0.2;
+}
+.first-section .uk-panel{
+    width: 100%;
+}
+.first-section .uk-overlay{
+    padding-bottom: 5px ;
+}
+.first-section .uk-overlay.title-wrap.second-slide{
+    padding-bottom: 110px ;
+}
+
+.uk-position-small{
+    margin: 100px 120px !important;  
+}
+.uk-position-small p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Oswald',sans-serif;
+}
+.home-button{
+    background-color: #ffaa17 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    font-family: Oswald, sans-serif !important;
+    color: #041d38 !important   ;
+    text-transform: uppercase;
+    border: 2px solid #ffaa17 !important;
+    margin-right: 20px !important;
+    margin-top: 30px;
+    width: 180px;
+    height: 60px;
+}
+.home-button:hover{
+    background-color: transparent !important;
+    border: 2px solid grey !important;
+    color: #fff !important;
+}
+.home-button::before{
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    content: '';
+    background-color: #041d38;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.home-button::after{
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    content: '';
+    background-color: #041d38;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.home-button:hover.home-button::after{
+    background-color: grey;
+}
+.home-button:hover.home-button::before{
+    background-color: gray;
+}
+
+
+.contactus-btn{
+    background-color: transparent !important;
+    border: 2px solid grey !important;
+    font-size: 14px !important;
+    font-family: 'Oswald',sans-serif !important;
+    font-weight: 700 !important;
+    width: 160px;
+    height: 60px;
+}
+
+.contactus-btn:hover{
+    background-color: #ffaa17 !important;
+    border: 2px solid #ffaa17 !important;
+    color: #041d38 !important;
+}
+.contactus-btn::before{
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    content: '';
+    background-color: #ffaa17;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.contactus-btn::after{
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    content: '';
+    background-color: #ffaa17;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.contactus-btn:hover.contactus-btn::after{
+    background-color: #041d38;
+}
+.contactus-btn:hover.contactus-btn::before{
+    background-color: #041d38;
+}
+.banner-image img {
+    
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
+}
+.bottom-shape{
+    position: absolute;
+    left: -30px;
+    top: 71em;
+    width: 105%;
+    background-color: transparent;
+}
+.bottom-shape svg{
+    width: calc(125% + 1.3px);
+    height: 175px;
+    display: block;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden;
+    fill: #fff;
+}
+
+
+@media screen and (max-width:1024px) {
+    .bottom-shape{
+        top: 77em;
+    } 
+}
+
+@media screen and (max-width:769px) {
+    .bottom-shape{
+        top: 83em;
+    } 
+    .first-section .uk-overlay.uk-position-center{
+        padding-bottom: 130px ;
+    }
+    .first-section .uk-overlay.uk-overlay.uk-position-center.title-wrap.second-slide{
+        padding-bottom: 300px !important ;
+    }
+    .uk-position-small{
+        margin: 100px 60px !important;  
+    }
+    .banner-para{
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .first-section{
+        padding-bottom: 11em;
+    }
+    .bottom-shape svg{
+        left: 55%;
+        height: 100px;
+    }
+    .banner-para{
+        width: 95%;
+    }
+    .bottom-shape{
+        top: 85em;
+    } 
+    .banner-title{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .banner-title h3{
+        line-height: 1.09;
+    }
+    .first-section .uk-overlay.uk-position-center{
+        position: relative;
+        bottom: 15em;
+    }
+    .uk-position-small{
+        display: none;
+    }
+    .banner-para{
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .first-section{
+        padding-bottom: 8em;
+    }
+    .uk-panel{
+        padding-bottom: 3em;
+    }
+    .bottom-shape{
+        top: 80em;
+    }
+    .first-section .uk-overlay.uk-position-center{
+        position: relative;
+        bottom: 17em;
+    }
+    .first-section .uk-overlay.uk-overlay.uk-position-center.title-wrap.second-slide{
+        padding-bottom: 180px !important  ;
+    }
+    .first-section .uk-position-bottom{
+        position: relative;
+        top: 52em;
+    }
+    .button-wrap{
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-para p{
+        font-size: 18px;
+    }
+    .home-button{
+        margin-right: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    
+}
+
+@media screen and (max-width:326px){
+    .banner-title h3{
+        font-size: 25px;
+    }
+    .first-section .uk-position-bottom{
+        position: relative;
+        top: 54em;
+    }
+    .first-section .startup-india.uk-position-bottom{
+        position: relative;
+        top: 51em;
+    }
+    .bottom-shape{
+        top: 80em;
+    }
+    
+
+}

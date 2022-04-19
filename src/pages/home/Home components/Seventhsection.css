@@ -1,0 +1,40 @@
+#seventh-section{
+    padding: 4% 1%;
+}
+
+.partner-logo{
+    max-width: 200px;
+    margin-left: 80px;
+}
+
+
+@media screen and (max-width:1024px) {
+
+          
+}
+@media screen and (max-width:768px) {
+    .partner-logo{
+        max-width: 130px;
+        margin-left: 40px;
+    }
+    
+}
+@media screen and (max-width:426px) {
+    
+    
+}
+@media screen and (max-width:376px) {
+    .partner-logo{
+        max-width: 90px;
+        margin-left: 20px;
+    }
+    
+    
+}
+@media screen and (max-width:326px) {
+    .partner-logo{
+        max-width: 60px;
+        margin-left: 20px;
+    }
+    
+}

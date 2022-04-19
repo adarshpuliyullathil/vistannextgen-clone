@@ -1,0 +1,57 @@
+.second-section{
+    padding: 8% 10% 0;
+}
+
+.robo-desc{
+    text-align: left;
+    padding: 8% 18% 3% 2%;
+}
+.robo-img{
+    max-width: 550px;
+    max-height: 550px;
+}
+.robo-desc h4{
+    font-weight: 700;
+    color: #ffaa17;
+    font-family: Oswald, sans-serif;
+    line-height: 1;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.robo-desc h3{
+    font-size: 24px;
+    color: #041d38;
+    font-family: 'Oswald',sans-serif;
+}
+.robo-desc p{
+    font-size: 16px;
+    color: #041d38;
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.6;
+}
+
+@media screen and (max-width:1024px) {
+    .second-section{
+        padding: 10% 5%;
+    }
+}
+@media screen and (max-width:768px) {
+    
+    
+    
+}
+@media screen and (max-width:426px) {
+    .second-section{
+        margin-top: 15%;
+        
+    }
+    
+}
+@media screen and (max-width:376px) {
+    
+    
+}
+@media screen and (max-width:326px) {
+    
+    
+}

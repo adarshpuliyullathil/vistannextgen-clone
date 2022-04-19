@@ -1,0 +1,152 @@
+.third-section{
+    padding-top: 0;
+    margin-top: 0;
+}
+.third-page{
+    background-color: lightgrey;
+    text-align: left;
+    padding: 10% 12%;
+}
+
+.typo-section h4{
+    font-weight: 700;
+    color: #ffaa17;
+    font-family: Oswald, sans-serif;
+    line-height: 1;
+    font-size: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.typo-section h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-family: 'Oswald',sans-serif;
+}
+.typo-section p{
+    font-size: 16px;
+    color: #041d38;
+    font-family: 'Roboto',sans-serif;
+}
+
+.about-card-area{
+    margin-top: 5%;
+}
+
+.about-card{
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 8% 6%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid #fff;
+}
+.about-card-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.about-logo-img{
+    width: 64px;
+    height: 64px;
+    display: inline-flex;
+    align-items: center;
+}
+.about-card-title{
+    margin-bottom: 10%;
+}
+.about-card-title h3{
+    font: 24px 'Oswald',sans-serif;
+    color: #041d38;
+    font-weight: 700;
+}
+.about-card-para p{
+    font-size: 14px;
+    color: #041d38;
+    line-height: 1.6;
+    font-family: 'Roboto',sans-serif;
+}
+.black-circle{
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color:#041d38 ;
+    display: inline-flex;
+    position: relative;
+    right: 47%;
+    top: 115px;
+}
+.orange-circle{
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #ffaa41;
+    display: inline-flex;
+    position: absolute;
+    right: -68px;
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .black-circle,.orange-circle{
+        width: 140px ;
+        height: 140px;
+        
+    }
+          
+}
+@media screen and (max-width:769px) {
+    .about-card{
+        max-width: 280px;
+        margin: auto;
+    }
+    .black-circle{
+        width: 90px ;
+        height: 90px;
+        top: 60px;
+        right: 49%;
+    }
+    .orange-circle{
+      
+        width: 90px ;
+        height: 90px;
+        right: -30px;
+        top:213em;
+        
+    }
+    
+    
+}
+@media screen and (max-width:426px) {
+    .black-circle{
+        top: 60px;
+    }
+    .orange-circle{
+        right: -40px;
+        top: 233em;
+    }
+    
+}
+@media screen and (max-width:376px) {
+    .black-circle{
+        width: 60px;
+        height: 60px;
+        top: 40px;
+    }
+    .orange-circle{
+        width: 60px;
+        height: 60px;
+        right: -40px;
+        top: 236em;
+    }
+    
+}
+@media screen and (max-width:326px) {
+    .orange-circle{
+        
+        top: 244em;
+    }
+    
+}

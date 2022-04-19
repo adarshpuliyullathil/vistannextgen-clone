@@ -34,9 +34,9 @@ import Contact from '../pages/contact/Contact';
 export default function Navigate() {
   return (
     <BrowserRouter>
-        <div>
-            <Header/>
-        </div>
+
+          <Header/>
+       
     <Routes>
              
       <Route exact path="/" element={<Home />}/>

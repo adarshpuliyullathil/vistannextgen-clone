@@ -1,0 +1,110 @@
+#sixth-section{
+    padding: 3% 1%;
+}
+.image-wrapper{
+    margin: 2% 5%;
+    width: 30% !important;
+}
+.description-wrap{
+    background-color: #041d38;
+    width: 75%;
+    margin-left: 25%;
+    text-align: left;
+    padding: 4%;
+    position: relative;
+    line-height: 1.6;
+}
+.description-wrap p a{
+    line-height: 1.6 !important;
+    font: 16px 'Roboto',sans-serif;
+}
+.description-wrap h3{
+    color: #ffaa17 !important;
+    font: 16px 'Oswald',sans-serif;
+}
+.arrow-wrap{
+    width: 80px;
+    height: 80px;
+    background-color: #ffaa17;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    right: -7%;
+    top: 35%;
+    padding-top: 3%;
+}
+.slider-image{
+    width: 35% !important; 
+}
+
+.uk-overlay{
+    background: none !important;
+    position: relative;    
+}
+#sixth-section .uk-panel{
+    padding-bottom: 80px;
+    max-width: 900px;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .arrow-wrap{
+        width: 50px;
+        height: 50px;
+    }
+          
+}
+@media screen and (max-width:768px) {
+    
+    
+}
+@media screen and (max-width:426px) {
+    .description-wrap{
+        width: fit-content;
+        margin: 0;
+    }
+    .description-wrap.triaksh-text{
+        top:5em;
+    }
+    .arrow-wrap{
+        width: 40px;
+        height: 40px;
+        right: -13%;
+    }
+         
+}
+@media screen and (max-width:376px) {
+    .description-wrap{
+      width: 240px;
+      top: 3em;
+    }
+    .description-wrap p{
+        line-height: 1 !important;
+    }
+    .description-wrap.triaksh-text{
+        top:6em;
+    }
+    
+}
+@media screen and (max-width:326px) {
+    #sixth-section{
+        padding-bottom: 8%;
+    }
+    .description-wrap{
+        width: 240px;
+        top: 3em;
+      }
+
+      .description-wrap p{
+          line-height: 1 !important;
+          font-size: 12px;
+      }
+      .description-wrap.triaksh-text{
+          top:8em;
+      }
+      .uk-width-3-4 {
+        width: 95% !important;
+      }
+    
+}

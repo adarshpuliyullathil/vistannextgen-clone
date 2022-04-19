@@ -1,0 +1,113 @@
+#fifth-section{
+    padding: 5% 10%;
+}
+.mission-card{
+    box-sizing: border-box;
+   padding: 5% 15%;
+    box-shadow: 0 10px 20px 0 rgb(179 202 216 / 10%);
+}
+.mission-title {
+    margin-top: 10%;
+    margin-bottom: 20px;
+    
+}
+.mission-title h3{
+    font-size: 24px;
+    font-family: 'Oswald',sans-serif;
+    color: #041d38;
+}
+.mission-description p{
+    line-height: 1.6;
+    font-size: 14px;
+    font-family: 'Roborto',sans-serif;
+    color: #041d38;
+}
+.vision-card{
+    box-shadow: 0 10px 20px 0 rgb(179 202 216 / 10%);
+    box-sizing: border-box;
+   padding: 5% 15%;
+   margin-top: 10%;
+}
+
+.collaboration{
+    box-shadow: 0 10px 20px 0 rgb(179 202 216 / 10%);
+    box-sizing: border-box;
+    text-align: left;
+    padding: 2% 3%;
+}
+.sub-heading{
+    margin-bottom: 3%;
+}
+
+.sub-heading h3{
+    font-family: 'Oswald',sans-serif;
+    color: #ffaa17;
+}
+.title-head{
+    margin-bottom: 6%;
+}
+.title-head h1{
+    font-size: 30px;
+    font-family: 'Oswald',sans-serif;
+}
+.description-area{
+    text-align: left ;
+}
+.description-area h2{
+    font-size: 24px;
+    font-family: 'Oswald',sans-serif;
+    margin-bottom: 0;
+}
+.description-area p{
+    font-size: 16px;
+    font-family: 'Roborto',sans-serif;
+    line-height: 1.6;
+}
+
+.mission-logo{
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #ffaa17;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.vision-card:hover .mission-logo{
+    
+    background-color: #041d38;
+    color: #fff;
+    
+}
+.mission-card:hover .mission-logo{
+    
+    background-color: #041d38;
+    color: #fff;
+    
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+    #fifth-section{
+        padding: 5% ;
+    }
+          
+}
+@media screen and (max-width:768px) {
+    
+    
+}
+@media screen and (max-width:426px) {
+    
+    
+}
+@media screen and (max-width:376px) {
+    
+    
+}
+@media screen and (max-width:326px) {
+    
+    
+}

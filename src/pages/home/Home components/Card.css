@@ -1,0 +1,120 @@
+.card-body{
+    border: 2px solid #1e344c;
+    align-content: center;
+    padding: 15% 10%;
+}
+.card-body h3{
+    color: #fff;
+}
+.card-body p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: 'Roboto',sans-serif;
+}
+.card-body:hover{
+    border: 2px solid #ffaa17;
+}
+.card-img{
+    margin: auto;
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    margin-bottom: 35px;
+    
+}
+.card-title{
+    margin-bottom: 30px;
+}
+.card-header{
+    text-transform: uppercase;
+}
+.card-btn{
+    margin: auto;
+    margin-top: 10%;
+    background-color: #ffaa17;
+    width: 200px;
+    height: 60px;
+}
+.card-learnmore{
+    background-color: #ffaa17;
+    appearance: button;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    color: #041d38;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-learnmore::before{
+    width: 10px;
+    height: 2px;
+    position: relative;
+    left: 120px;
+    bottom: 18px;
+    content: '';
+    background-color: #041d38;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.card-learnmore::after{
+    width: 2px;
+    height: 10px;
+    position: relative;
+    left: 46px;
+    bottom: 14px;
+    content: '';
+    background-color: #041d38;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.card-learnmore:hover.card-learnmore::after{
+    background-color: grey;
+}
+.card-learnmore:hover.card-learnmore::before{
+    background-color: gray;
+}
+
+
+
+
+  @media screen and (min-width:1026px)and (max-width:2000px) {
+      .card-body{
+          min-height: 410px;
+      }
+      
+  }
+
+  @media screen and (max-width:1024px) {
+    .card-btn{
+        width:150px;
+        height: 60px;
+    }
+    .card-learnmore::before{
+        left: 95px;
+    }
+    .card-learnmore::after{
+        left: 21px;
+    }
+          
+}
+@media screen and (max-width:768px) {
+    
+    
+}
+@media screen and (max-width:426px) {
+    
+    
+}
+@media screen and (max-width:376px) {
+    
+    
+}
+@media screen and (max-width:326px) {
+    
+    
+}
